@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/*
+Name: Kelsey McAlpine
+Class: 1300-004
+Assignment #: Project 
+Due: October 29
+
+Honor Pledge: On my honor as a student of the University of Nebraska at Omaha, I have neither given nor received unauthorized help on this homework assignment.
+NAME: Kelsey McAlpine
+EMAIL: kmcalpine@unomaha.edu
+
+Partners: None
+ */
+
+/* This modifies the navigation table */
+table#nav1  
+{
+    color: #6Ad2C5;
+    margin-bottom: 100px;
+}
+tr#nav2
+{    
+    height:30px;
+}
+td#nav3
+{
+    background-color: #EDEFF1;
+}
+
+
+/* This modifies the header */
+div#header
+{
+    margin-top: 60px;
+}
+
+
+/* This modifies the Typography table on the index page */
+table 
+{
+    width: 100%;
+    border: 0px;
+    text-align: center;
+}
+
+tr
+{
+    height: 480px;
+}
+
+td
+{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+td:hover
+{
+    background-color: #6Ad2C5;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+/* This modifies all elements in the category class */
+.category, .title
+{   
+    font-size: 48px;
+    font-family: "georgia", "serif";
+    text-align: center;
+    color: #EDEFF1;
+    text-decoration: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+/* This modifies elements on all pages */
+.year
+{
+    font-size: 36px;
+    font-family: "Arial", "sans-serif";
+    text-align: center;
+    color: #EDEFF1;
+    line-height: 0px;
+    font-weight: 500;
+}
+
+.pageintro
+{
+    background-color: #6Ad2C5;
+    color: #EDEff1;
+    width: 400px;
+}
+
+
+tr.pageintro
+{
+    border-bottom: 1px solid #EDEff1;
+}
+
+
+/* This modifies the prevenetian ID */
+.prevenetian
+{
+    background-color: #DCE0E4;
+}
+
+/* This modifies the venetian ID */
+.venetian
+{
+    background-color: #CBD1D7;
+}
+
+/* This modifies the italic ID */
+.italic
+{
+    background-color: #A8B3BC;
+}
+
+/* This modifies the garalde ID */
+.garalde
+{
+    background-color: #8594A1;
+}
+
+/* This modifies the transitional ID */
+.transitional
+{
+    background-color: #637687;
+}
+
+/* This modifies the didone ID */
+.didone
+{
+    background-color: #495C6D;
+}
+
+/* This modifies the slabserif ID */
+.slabserif
+{
+    background-color: #415261;
+}
+
+/*This modifies the sansserif ID */
+.sansserif
+{
+    background-color: #394855;
+}
+
+/*This modifies the display ID */
+.display
+{
+    background-color: #313D49;
+}
+/*The following elements are on every page */
+
+/* This modifies the background color of the body of every page */
+body
+{
+    background-color: #EDEFF1;
+}
+
+/* This modifies how h1 elements are displayed */
+h1
+{
+    font-family: "georgia", "sans-serif";
+    color: #6AD2C5;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 2px;
+}   
+
+/*This modifies how h2 elements are displayed */
+h2
+{
+    font-size: 24px;
+    font-family: "Arial", "sans-serif";
+    text-align: center;
+    color: #EDEFF1;
+    line-height: 31px;
+    font-weight: 500;
+}
+
+/*This modifies how p elements are displayed */
+p
+{
+    font-size: 18px;
+    font-family: "Arial", "sans-serif";
+    text-align: center;
+    color: #EDEFF1;
+    line-height: 24px;
+    font-weight: 500;
+}   
+
+/* This modifies elements on the quiz page */
+div#quiz
+{
+    background-color: #6AD2C5;
+    padding: 100px;
+}
+
+p.quizintro
+{
+    font-size: 36px;
+    font-family: "Arial", "sans-serif";
+    color: #EDEFF1;
+    line-height:0px;
+    font-weight: 500;
+}
+
+h2.question
+{
+    font-size: 24px;
+    font-family: "Arial", "sans-serif";
+    text-align: left;
+    color: #EDEFF1;
+    line-height: 31px;
+    font-weight: 500;
+}
+
+.answer
+{
+    font-size: 18px;
+    font-family: "Arial", "sans-serif";
+    text-align: left;
+    color: #EDEFF1;
+    line-height: 24px;
+    font-weight:500;
+}
